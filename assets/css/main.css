@@ -2562,14 +2562,18 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
-			margin: 0 0 0.5em 0;
+      font-size: 1.2em;
+      margin: 0;
+    }
+    
+		.work-item h5 {
+      font-size: 0.9em;
+      margin: 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
-			line-height: 1.5em;
-			margin: 0;
+      font-size: 0.8em;
+      margin: 0;
 		}
 
 /* Header */
@@ -3218,4 +3222,17 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-	}
+  }
+
+  /* #project-description {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+    #project-description > h1, h2, h3, h4, h5, a, p {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      font-size: 30px;
+    } */

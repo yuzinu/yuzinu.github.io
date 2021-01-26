@@ -1054,13 +1054,17 @@ $size-header-pad: 4em;
 		}
 
 		h3 {
-			font-size: 1em;
-			margin: 0 0 (_size(element-margin) * 0.25) 0;
-		}
+			font-size: 1.2em;
+			margin: 0;
+    }
+    
+    h5 {
+      font-size: 0.9em;
+      margin: 0;
+    }
 
 		p {
 			font-size: 0.8em;
-			line-height: 1.5em;
 			margin: 0;
 		}
 	}
