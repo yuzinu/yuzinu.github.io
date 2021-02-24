@@ -46,6 +46,7 @@ $size-header-pad: 4em;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+    background-color: inherit;
 	}
 
 	article, aside, details, figcaption, figure,
@@ -597,14 +598,11 @@ $size-header-pad: 4em;
 		position: relative;
 
 		&:before {
-			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
-			background: url('images/overlay.png');
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -639,10 +637,6 @@ $size-header-pad: 4em;
 					opacity: 1.0;
 				}
 
-				&:before {
-					background: url('images/overlay.png'), url('images/overlay.png');
-					opacity: 1.0;
-				}
 			}
 		}
 
